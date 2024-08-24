@@ -1,0 +1,31 @@
+Configuração
+git init - Inicializar um diretório como um repositório git.
+
+Configurar a informação do usuário usada em todos os repositórios locais.
+
+git config --global user.name "Ana Villas"     
+git config --global user.email "anacarolina.vbp@gmail.com"    
+
+Incluir o arquivo no diretório local
+git add .    
+
+Realizar o primeiro commit 
+git commit -m "First Commit" 
+
+Criar uma branch Main e uma branch de desenvolvimento
+git branch -M main  
+git branch Desenvolvimento
+
+Adicionar a URL do repositório remoto que os commits serão feitos.
+git remote add origin https://github.com/Anavillas/cltversion..git    
+
+Transmitir os commits do repositório local para o repositório remoto.
+git push -u origin main  = Para transmitir para branch main
+git push -u origin desenvolvimento = para transmitir para branch desenvolvimento
+
+
+Estrutura de Branch 
+Branch Main - Essa branch foi criada para servir como a branch Main. A branch Principal
+
+Branch desenvolvimento - Essa branch é onde serão feitos os commits de alteração, na qual servirá de testes para o desenvolvimento e equipe de testes. 
+   
